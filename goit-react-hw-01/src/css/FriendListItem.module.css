@@ -1,7 +1,26 @@
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.avatar {
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 540;
+}
+
 .online {
+  font-size: 22px;
+  font-weight: 500;
   color: #03ac1f;
 }
 
 .offline {
+  font-size: 22px;
+  font-weight: 500;
   color: #dc1212;
 }
